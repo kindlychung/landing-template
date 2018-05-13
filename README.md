@@ -14,3 +14,9 @@ Bundle app before pushing to the cloud
 
 `npm run build`
  
+
+Transfer files from local machine to the cloud? Use this command
+
+```
+scp -i ~/.ssh/<your-private-key> -r <local-destination-of-build-folder> <cloud-user>@<cloud-ip>:/home/ubuntu/<name-of-your-project>
+```
